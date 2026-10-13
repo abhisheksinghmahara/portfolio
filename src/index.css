@@ -1,9 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Let Tailwind handle the body background in App.js instead */
 body {
   margin: 0;
-  padding:0;
-  background: rgb(20, 17, 17);
-  background-repeat: no-repeat;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
